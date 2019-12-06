@@ -163,4 +163,8 @@
   .hero-text-box {
     top: 70%;
   }
+  .logo {
+    margin-top: 10px;
+    margin-left: 10px;
+  }
 }
