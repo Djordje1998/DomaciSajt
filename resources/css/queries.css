@@ -1,0 +1,160 @@
+/* small pc */
+@media only screen and (max-width: 1200px) {
+  .hero-text-box {
+    width: 100%;
+    padding: 0 2%;
+  }
+  .row {
+    padding: 0 2%;
+  }
+}
+
+/* big tablet */
+@media only screen and (max-width: 1023px) {
+  :root {
+    font-size: 18px;
+  }
+  section {
+    padding: 60px 0px;
+  }
+  .long-copy {
+    width: 85%;
+    margin-left: 7.5%;
+  }
+  .step-box {
+    margin-top: 10px;
+  }
+  .step {
+    margin-bottom: 40px;
+  }
+  .btn-app-box {
+    margin-top: 60px;
+  }
+  .app-screen {
+    width: 50%;
+  }
+  .city-features i {
+    width: 10px;
+    font-size: 0.9rem;
+    margin-right: 5px;
+  }
+  .box {
+    padding: 0;
+  }
+  .plan-box {
+    width: 100%;
+  }
+  .plan-price {
+    font-size: 2.5rem;
+    font-weight: 300;
+  }
+  .plan-box ul li {
+    padding: 5px 0;
+  }
+  .plan-box ul li i {
+    width: 15px;
+    font-size: 1.25rem;
+    margin-right: 10px;
+  }
+  .contact-form {
+    width: 80%;
+  }
+}
+
+/* small tablets */
+@media only screen and (max-width: 767px) {
+  :root {
+    font-size: 16px;
+  }
+  section {
+    padding: 30px 0;
+  }
+  .row,
+  .hero-text-box {
+    padding: 0 4%;
+  }
+  .col {
+    width: 100%;
+    margin: 0 0 5% 0;
+  }
+  .main-nav {
+    display: none;
+  }
+  .long-copy {
+    width: 100%;
+    margin-left: 0;
+  }
+  h1 {
+    font-size: 1.8rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  .step-box {
+    margin-top: 10px;
+  }
+  .step {
+    margin-bottom: 20px;
+  }
+  .btn-app-box {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .app-screen {
+    display: block;
+    width: 40%;
+    margin: 0 30%;
+  }
+  .step div {
+    height: 45px;
+    width: 45px;
+    font-size: 1.4rem;
+    padding: 5px;
+    margin-right: 10px;
+  }
+  .step-box:first-child {
+    text-align: center;
+    padding-right: 0;
+    margin-top: 20px;
+  }
+  .step-box:last-child {
+    padding-left: 0;
+    margin-top: 20px;
+  }
+  .section-app h2 {
+    margin-bottom: 10px;
+  }
+  .city img {
+    margin-top: 30px;
+  }
+  blockquote {
+    line-height: 1.4;
+    margin-top: 60px;
+  }
+  blockquote::before {
+    top: -35px;
+    left: 0;
+  }
+  .contact-form {
+    width: 90%;
+  }
+  .social-links {
+    float: left;
+  }
+  footer {
+    padding: 40px;
+  }
+}
+
+/* small phones */
+@media only screen and (max-width: 480px) {
+  .contact-form {
+    width: 100%;
+  }
+  footer {
+    padding: 20px;
+  }
+  .btn {
+    margin-bottom: 15px;
+  }
+}
