@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="./vendors/css/normalize.css" />
     <link rel="stylesheet" href="./vendors/css/grid.css" />
+    <link rel="stylesheet" href="./vendors/css/animate.css" />
     <link rel="stylesheet" href="./resources/css/style.css" />
     <link rel="stylesheet" href="./resources/css/queries.css" />
     <link
@@ -19,7 +20,7 @@
     <title>Omnifood</title>
   </head>
   <body>
-    <header>
+    <header id="top">
       <nav>
         <div class="row">
           <img
@@ -27,23 +28,32 @@
             alt="Omnifood logo"
             class="logo"
           />
+          <img
+            src="./resources/img/logo.png"
+            alt="Omnifood black logo"
+            class="black-logo"
+          />
           <div class="main-nav">
             <ul>
-              <li><a href="#">Food delivery</a></li>
-              <li><a href="#">How it works</a></li>
-              <li><a href="#">Our cities</a></li>
-              <li><a href="#">Sign up</a></li>
+              <li><a href="#features">Food delivery</a></li>
+              <li><a href="#work">How it works</a></li>
+              <li><a href="#city">Our cities</a></li>
+              <li><a href="#plan">Sign up</a></li>
             </ul>
           </div>
+          <a><i class="icon ion-md-reorder nav-btn"></i></a>
+          <!-- close -->
         </div>
       </nav>
       <div class="hero-text-box">
         <h1>Goodbye junk food.<br />Hello super healthy meals.</h1>
-        <a class="btn btn-full" href="#">I’m hungry</a>
-        <a class="btn btn-ghost" href="#">Show me more</a>
+        <a class="btn btn-full js--go-to-section-plan" href="#">I’m hungry</a>
+        <a class="btn btn-ghost js--go-to-section-features" href="#"
+          >Show me more</a
+        >
       </div>
     </header>
-    <section class="section-features">
+    <section class="section-features js--section-features" id="features">
       <div class="row">
         <h2>Get food fast — not fast food</h2>
         <p class="long-copy">
@@ -52,7 +62,7 @@
           we’re really good at it, we promise!
         </p>
       </div>
-      <div class="row">
+      <div class="row js--animate-1">
         <div class="col span-1-of-4 box">
           <i class="icon ion-md-infinite big-icons"></i>
           <h3>Up to 365 days/year</h3>
@@ -159,7 +169,7 @@
       </ul>
     </section>
 
-    <section class="section-app">
+    <section class="section-app" id="work">
       <div class="row">
         <h2>How it works &mdash; Simple as 1, 2, 3</h2>
       </div>
@@ -168,7 +178,7 @@
           <img
             src="./resources/img/app-iPhone.png"
             alt="Omnifood app on iPhone"
-            class="app-screen"
+            class="app-screen js--animate-2"
           />
         </div>
         <div class="col span-1-of-2 step-box">
@@ -205,11 +215,11 @@
         </div>
       </div>
     </section>
-    <section class="section-city">
+    <section class="section-city" id="city">
       <div class="row">
         <h2>We're currently in these cities</h2>
       </div>
-      <div class="row">
+      <div class="row js--animate-3">
         <div class="col span-1-of-4 box city">
           <img src="./resources/img/lisbon-3.jpg" alt="Lisbon picture" />
           <div class="city-text">
@@ -335,13 +345,13 @@
       </div>
     </section>
 
-    <section class="section-offers">
+    <section class="section-offers js--plan" id="plan">
       <div class="row">
         <h2>Start eating healthy today</h2>
       </div>
       <div class="row">
         <div class="col span-1-of-3">
-          <div class="plan-box">
+          <div class="plan-box js--animate-4-1">
             <div>
               <h3>Pro</h3>
               <p class="plan-price">$399<span> / month</span></p>
@@ -364,7 +374,7 @@
           </div>
         </div>
         <div class="col span-1-of-3">
-          <div class="plan-box">
+          <div class="plan-box js--animate-4-2">
             <div>
               <h3>Premium</h3>
               <p class="plan-price">$149<span> / month</span></p>
@@ -389,7 +399,7 @@
           </div>
         </div>
         <div class="col span-1-of-3">
-          <div class="plan-box">
+          <div class="plan-box js--animate-4-3">
             <div>
               <h3>Starter</h3>
               <p class="plan-price">$19<span> / meal</span></p>
@@ -497,26 +507,34 @@
       <div class="row">
         <div class="col span-1-of-2">
           <ul class="footer-nav">
-            <li><a href="#">About us</a></li>
+            <li><a href="#top">About us</a></li>
             <li><a href="#">Blog</a></li>
             <li><a href="#">Press</a></li>
-            <li><a href="#">iOS App</a></li>
-            <li><a href="#">Android App</a></li>
+            <li><a href="#work">iOS App</a></li>
+            <li><a href="#work">Android App</a></li>
           </ul>
         </div>
         <div class="col span-1-of-2">
           <ul class="social-links">
             <li>
-              <a href="#"><i class="icon ion-logo-facebook"></i></a>
+              <a href="#" target="_blank"
+                ><i class="icon ion-logo-facebook"></i
+              ></a>
             </li>
             <li>
-              <a href="#"><i class="icon ion-logo-twitter"></i></a>
+              <a href="#" target="_blank"
+                ><i class="icon ion-logo-twitter"></i
+              ></a>
             </li>
             <li>
-              <a href="#"><i class="icon ion-logo-googleplus"></i></a>
+              <a href="#" target="_blank"
+                ><i class="icon ion-logo-googleplus"></i
+              ></a>
             </li>
             <li>
-              <a href="#"><i class="icon ion-logo-instagram"></i></a>
+              <a href="#" target="_blank"
+                ><i class="icon ion-logo-instagram"></i
+              ></a>
             </li>
           </ul>
         </div>
@@ -527,5 +545,11 @@
         </p>
       </div>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.min.js"></script>
+    <script src="./vendors/js/jquery.waypoints.min.js"></script>
+    <script src="./resources/js/scripts.js"></script>
   </body>
 </html>

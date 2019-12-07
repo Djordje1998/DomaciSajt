@@ -77,9 +77,6 @@
     width: 100%;
     margin: 0 0 5% 0;
   }
-  .main-nav {
-    display: none;
-  }
   .long-copy {
     width: 100%;
     margin-left: 0;
@@ -144,6 +141,51 @@
   footer {
     padding: 40px;
   }
+
+  /* -----------Mobile Nav bar---------- */
+
+  .nav-btn {
+    display: inline-block;
+  }
+
+  .sticky .nav-btn {
+    color: #000;
+  }
+
+  .main-nav {
+    float: left;
+    margin-top: 20px;
+    margin-left: 5%;
+    display: none;
+  }
+
+  .main-nav li {
+    display: block;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+  .main-nav li a:link,
+  .main-nav li a:visited {
+    font-size: 1.3rem;
+    border: 0;
+    padding: 10px 0;
+  }
+
+  .sticky .nav-btn {
+    margin-top: 10px;
+  }
+
+  .sticky .main-nav {
+    margin: 10px 0 20px 25px;
+    display: none;
+  }
+
+  .sticky .main-nav li a:link,
+  .sticky .main-nav li a:visited {
+    font-size: 1.3rem;
+    padding: 0;
+  }
 }
 
 /* small phones */
@@ -156,6 +198,50 @@
   }
   .btn {
     margin-bottom: 15px;
+  }
+
+  .main-nav {
+    margin-top: 5px;
+  }
+
+  .main-nav li {
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+
+  .main-nav li {
+    margin-left: 5px;
+  }
+
+  .main-nav li a:link,
+  .main-nav li a:visited {
+    font-size: 1rem;
+    border: 0;
+    padding: 5px 0;
+  }
+
+  .sticky .main-nav {
+    margin: 5px 0 10px 15px;
+  }
+
+  .sticky .main-nav li a:link,
+  .sticky .main-nav li a:visited {
+    font-size: 1rem;
+  }
+  .logo {
+    height: 50px;
+  }
+
+  .black-logo {
+    height: 50px;
+  }
+
+  .nav-btn {
+    font-size: 2.4rem;
+    margin-top: 20px;
+  }
+  .sticky .nav-btn {
+    margin-top: 7px;
   }
 }
 
